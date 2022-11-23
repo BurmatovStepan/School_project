@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>734</width>
+    <height>506</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="7" column="0" colspan="2">
+    <widget class="QLineEdit" name="sort_this">
+     <property name="minimumSize">
+      <size>
+       <width>716</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0" colspan="2" alignment="Qt::AlignHCenter|Qt::AlignTop">
+    <widget class="QPushButton" name="run">
+     <property name="minimumSize">
+      <size>
+       <width>75</width>
+       <height>24</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Запустить</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1" alignment="Qt::AlignLeft|Qt::AlignVCenter">
+    <widget class="QLineEdit" name="new_dirs_here">
+     <property name="minimumSize">
+      <size>
+       <width>249</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" alignment="Qt::AlignRight">
+    <widget class="QCheckBox" name="del_cb">
+     <property name="minimumSize">
+      <size>
+       <width>249</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Удалить сортируемую папку</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QRadioButton" name="custom_folder">
+     <property name="minimumSize">
+      <size>
+       <width>461</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Указать свой путь</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QRadioButton" name="prg_folder">
+     <property name="minimumSize">
+      <size>
+       <width>461</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>В папке с программой</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" alignment="Qt::AlignLeft">
+    <widget class="QLabel" name="label_1">
+     <property name="minimumSize">
+      <size>
+       <width>222</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>355</width>
+       <height>328</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Новые папки будут созданы в...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QRadioButton" name="where_folder">
+     <property name="minimumSize">
+      <size>
+       <width>461</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>В папке с сортируемой папкой</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0" alignment="Qt::AlignVCenter">
+    <widget class="QLabel" name="label">
+     <property name="minimumSize">
+      <size>
+       <width>461</width>
+       <height>176</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Сортировать эту папку:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
